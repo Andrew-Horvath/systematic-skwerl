@@ -1,0 +1,87 @@
+.nav-left-custom {
+  background-color: rgb(13, 19, 33);
+  width: 25rem;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 2.5rem;
+}
+.nav-left-custom__logo {
+  margin: 0 0 5rem 0;
+}
+.nav-left-custom__logo--fa {
+  font-size: 10rem;
+  color: rgb(255, 255, 255);
+}
+.nav-left-custom__a {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.nav-left-custom__a:hover, .nav-left-custom__afocus {
+  color: rgb(13, 19, 33);
+}
+.nav-left-custom__a:hover ~ .hover-custom-bg, .nav-left-custom__afocus ~ .hover-custom-bg {
+  display: block;
+}
+.nav-left-custom__a:hover:nth-child(2) ~ .hover-custom-bg, .nav-left-custom__afocus:nth-child(2) ~ .hover-custom-bg {
+  transform: translateY(22.75%);
+}
+.nav-left-custom__a:hover:nth-child(3) ~ .hover-custom-bg, .nav-left-custom__afocus:nth-child(3) ~ .hover-custom-bg {
+  transform: translateY(29.8%);
+}
+.nav-left-custom__a:hover:nth-child(4) ~ .hover-custom-bg, .nav-left-custom__afocus:nth-child(4) ~ .hover-custom-bg {
+  transform: translateY(37.4%);
+}
+.nav-left-custom__a--icon {
+  font-size: 2.5rem;
+  margin: 0 3rem 0 0;
+}
+
+.nav-left-custom-bottom {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.nav-left-custom-bottom__a {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  transition: 0.6s ease-in-out;
+}
+.nav-left-custom-bottom__a:hover {
+  color: rgb(13, 19, 33);
+  background: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.4);
+  padding: 0.5rem 1rem;
+}
+.nav-left-custom-bottom__a--icon {
+  font-size: 2.5rem;
+  margin: 0 3rem 0 0;
+}
+
+.user-avatar {
+  margin: 0 3rem 0 0;
+  max-width: 4.5rem;
+  border-radius: 50%;
+}
+
+.hover-custom-bg {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 4.7rem;
+  position: absolute;
+  left: 0;
+  top: 22.7%;
+  z-index: -1;
+  border-radius: 0.5rem 0 0 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.4);
+  transition: all 3s;
+}/*# sourceMappingURL=Left-Nav.css.map */

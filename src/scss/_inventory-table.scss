@@ -1,0 +1,28 @@
+@import './Variables.scss';
+
+.table-custom {
+    font: 400 1.6rem 'Raleway', sans-serif;
+    color: $table-text;
+    background: none;
+    &--thead {
+        border: 1px solid transparent;
+        & th {
+            padding-bottom: 2rem;
+        }
+        }
+    
+    &--tbody{
+
+        &--currency {
+            font: 400 1.6rem 'Roboto Slab', serif; 
+        }
+
+        &_tr {
+            border-top: 2px solid $table-border;
+            border-bottom: 2px solid $table-border;
+            &:hover {
+                background: $table-hover;
+            }
+        }
+    }
+}

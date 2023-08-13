@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "itemName": "Tomato, Roma Bulk",
+      "vendor": "US Foodservice",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "LBS",
+      "onHand": 25,
+      "price": 9999.99,
+      "extended": 62.55
+    },
+    {
+      "itemName": "Lettuce, Iceberg",
+      "vendor": "Sysco",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "Bag",
+      "onHand": 4,
+      "price": 0.79,
+      "extended": 3.16
+    },
+    {
+      "itemName": "Squash, Kabocha",
+      "vendor": "Bix",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "LBS",
+      "onHand": 23,
+      "price": 1.63,
+      "extended": 37.49
+    },
+    {
+      "itemName": "Chicken, Tenderloin Tender Breaded 4oz",
+      "vendor": "US Foodservice",
+      "category": "Poultry",
+      "lastPurchased": "01/01/2023",
+      "uom": "EA",
+      "onHand": 40,
+      "price": 3.25,
+      "extended": 130.00
+    },
+    {
+      "itemName": "Tomato, Roma",
+      "vendor": "US Foodservice",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "LBS",
+      "onHand": 25,
+      "price": 2.99,
+      "extended": 62.55
+    },
+    {
+      "itemName": "Lettuce, Iceberg Head",
+      "vendor": "Sysco",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "Bag",
+      "onHand": 4,
+      "price": 0.79,
+      "extended": 3.16
+    },
+    {
+      "itemName": "Squash, Butternut",
+      "vendor": "Bix",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "LBS",
+      "onHand": 23,
+      "price": 1.63,
+      "extended": 37.49
+    },
+    {
+      "itemName": "Chicken, Breast",
+      "vendor": "US Foodservice",
+      "category": "Poultry",
+      "lastPurchased": "01/01/2023",
+      "uom": "EA",
+      "onHand": 40,
+      "price": 3.25,
+      "extended": 130.00
+    },
+    {
+      "itemName": "Tomato, Steak",
+      "vendor": "US Foodservice",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "LBS",
+      "onHand": 25,
+      "price": 2.99,
+      "extended": 62.55
+    },
+    {
+      "itemName": "Lettuce, Spinach",
+      "vendor": "Sysco",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "Bag",
+      "onHand": 4,
+      "price": 0.79,
+      "extended": 3.16
+    },
+    {
+      "itemName": "Squash, Spaghetti",
+      "vendor": "Bix",
+      "category": "Produce",
+      "lastPurchased": "01/01/2023",
+      "uom": "LBS",
+      "onHand": 23,
+      "price": 1.63,
+      "extended": 37.49
+    },
+    {
+      "itemName": "Chicken, Thighs",
+      "vendor": "US Foodservice",
+      "category": "Poultry",
+      "lastPurchased": "01/01/2023",
+      "uom": "EA",
+      "onHand": 40,
+      "price": 3.25,
+      "extended": 130.00
+    }
+  ]
+}

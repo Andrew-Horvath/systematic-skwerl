@@ -1,0 +1,44 @@
+@import "./Variables.scss";
+//button standard
+.button-clear-a {
+
+}
+.btn-custom-standard {
+    // text-decoration: none;
+    color: $button-std-text;
+    background: $button-std-bg;
+    border: none;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 1.5rem 1rem;
+    margin: 0 1rem;
+    width: 27.5rem;
+    position: relative;
+    transition: color 0.6s, transform 0.4s, background-color 0.4s;
+    &:hover {
+      background-color: darken($button-std-bg, 25%);
+    }
+    &:active {
+      transform: translateY(.3rem);
+      background-color: $button-std-bg;
+    }
+    &--signup {
+      background: $button-signup-bg;
+      transition: color 0.6s, transform 0.4s, background-color 0.4s;
+        &:hover {
+          background-color: darken($button-signup-bg, 10%);
+        }
+        &:active {
+          transform: translateY(.3rem);
+          background-color: lighten($button-signup-bg, 10%);
+        }  
+    }
+}
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}

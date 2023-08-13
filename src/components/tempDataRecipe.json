@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "ingredient": "Chicken, Tenderloin Tender Breaded 4oz",
+      "amount": 10,
+      "recipeUnit": "lbs",
+      "unitCost": 0.12,
+      "extendedCost": 2.33
+    },
+    {
+      "ingredient": "Spice, Cayenne",
+      "amount": 17,
+      "recipeUnit": "gram",
+      "unitCost": 0.05,
+      "extendedCost": 0.85
+    }],
+    
+     "directions": [{
+        "step1": "here are some directions to make recipe.",
+        "step2": "more directions go here",
+        "step3": "and some more directions are here"
+      }]
+    
+
+}

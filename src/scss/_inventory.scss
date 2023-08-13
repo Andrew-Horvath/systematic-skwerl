@@ -1,0 +1,23 @@
+@import './Variables.scss';
+
+.inventory-container {
+
+}
+
+
+.inventory-main {
+    padding: 3rem;
+}
+
+.content-box {
+                /* 1. inner shadow */
+  box-shadow: inset 0 0 .1rem .3rem rgba(255, 255, 255, 0.25),
+              /* 2. shadow around */
+              0 0 0 .2rem rgba(20, 21, 26, 0.075),
+              /* 3. multiple soft outside */
+              .15rem .25rem 0.1rem 0.04rem rgba(20, 21, 26, 0.1),
+              .15rem .25rem 0.1rem .15rem rgba(20, 21, 26, 0.05),
+              .15rem .25rem 0.35rem .6rem rgba(20, 21, 26, 0.12);
+  background-color: white;
+  border-radius: 12px;
+}

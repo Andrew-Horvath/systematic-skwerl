@@ -1,0 +1,40 @@
+.dashboard-container {
+    background: $dashboard-container-bg;
+    padding: 3rem;
+              /* 1. inner shadow */
+    box-shadow: inset 0 0 .1rem .3rem rgba(255, 255, 255, 0.25),
+              /* 2. shadow around */
+              0 0 0 .2rem rgba(20, 21, 26, 0.075),
+              /* 3. multiple soft outside */
+              .15rem .25rem 0.1rem 0.04rem rgba(20, 21, 26, 0.1),
+              .15rem .25rem 0.1rem .15rem rgba(20, 21, 26, 0.05),
+              .15rem .25rem 0.35rem .6rem rgba(20, 21, 26, 0.12);
+    border-radius: 12px;
+}
+.dashboard-chart-container {
+    height: 30rem;
+    width: 100%;
+}
+
+.dashboard-chart--article {
+    background: $dashboard-chart-bg;
+    color: $dashboard-chart-text;
+    min-height: 100%;
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.6rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: .3s;
+}
+.dashboard-chart--title {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    color: $dashboard-chart-title;
+    padding: 0 0 1rem 2.75rem;
+}
+
+.dashboard-chart-div {
+    height: 100%;
+    width: 100%;
+}
