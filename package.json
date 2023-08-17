@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-pro": "^6.3.0",
+    "@fortawsome/fontawesome-pro": "^6.3.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/pro-duotone-svg-icons": "^6.3.0",
     "@fortawesome/pro-light-svg-icons": "^6.3.0",
